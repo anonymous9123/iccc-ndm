@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-You can use the [editor on GitHub](https://github.com/anonymous9123/iccc-ndm/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<script type="text/javascript"> 
+      // Show button
+      function look(type){ 
+      param=document.getElementById(type); 
+      if(param.style.display == "none") param.style.display = "block"; 
+      else param.style.display = "none" 
+      } 
+</script> 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# The Neural Drum Machine
 
-### Markdown
+This repository describes the additional material and experiments around the paper ["Neural Drum Machine"](paper.pdf) submitted at the 2019 International Conference on Computational Creativity.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In this work, we introduce an audio synthesis architecture for real-time generation of drum sounds. The generative model is based on a conditional convolutional Wasserstein autoencoder (WAE) that learns to generate Mel-scaled magnitude spectrograms of short percussion samples. A Multi-Head Convolutional Neural Network implicitly performs phase reconstruction (MCNN) by estimating the audio signal directly from the magnitude spectrogram. The system is trained on a dataset of drum sounds containing 11 categories. In the end, it is capable of synthesizing sounds in real-time on a CPU.
+Furthermore, we describe a Max/MSP-based interface designed to interact with the model. With this setup, the system can be easily integrated into a studio-production environment. Moreover, the interface provides simple control over the sound generation process, which allows the user to quickly explore the space of possible drum timbres. We explain how this way of interacting with a generative model could change the way music producers compose drum tracks. Finally, we perform experimentation and provide analysis of the results.
 
-```markdown
-Syntax highlighted code block
+<p align="center">
+<img src="figures/NDM.png" height="75%" width="75%">
+</p>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anonymous9123/iccc-ndm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
