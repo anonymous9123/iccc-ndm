@@ -13,12 +13,12 @@
 
 This repository describes the additional material and experiments around the paper ["Neural Drum Machine"](paper.pdf) submitted at the 2019 International Conference on Computational Creativity.
 
-In this work, we introduce an audio synthesis architecture for real-time generation of drum sounds. The generative model is based on a conditional convolutional Wasserstein autoencoder (WAE) that learns to generate Mel-scaled magnitude spectrograms of short percussion samples. A Multi-Head Convolutional Neural Network implicitly performs phase reconstruction (MCNN) by estimating the audio signal directly from the magnitude spectrogram. The system is trained on a dataset of drum sounds containing 11 categories. In the end, it is capable of synthesizing sounds in real-time on a CPU.
-Furthermore, we describe a Max/MSP-based interface designed to interact with the model. With this setup, the system can be easily integrated into a studio-production environment. Moreover, the interface provides simple control over the sound generation process, which allows the user to quickly explore the space of possible drum timbres. We explain how this way of interacting with a generative model could change the way music producers compose drum tracks. Finally, we perform experimentation and provide analysis of the results.
+In this work, we introduce an audio synthesis architecture for real-time generation of drum sounds. The generative model is based on a conditional convolutional Wasserstein autoencoder (WAE) that learns to generate Mel-scaled magnitude spectrograms of short percussion samples. A Multi-Head Convolutional Neural Network implicitly performs phase reconstruction (MCNN) by estimating the audio signal directly from the magnitude spectrogram. The system is trained on a dataset of drum sounds containing 11 categories. In the end, it is capable of synthesizing sounds in real-time on a CPU. Furthermore, we describe a Max/MSP-based interface designed to interact with the model. With this setup, the system can be easily integrated into a studio-production environment. Moreover, the interface provides simple control over the sound generation process, which allows the user to quickly explore the space of possible drum timbres.
 
-<p align="center">
+<figure align="center">
+<figcaption>Our system's global architecture. The generative model (1) learns how to reconstruct spectrograms from a parameters’ space. Then, the second part of the system (2) is dedicated to spectrogram inversion, to generate some signal from a Mel spectrogram. Finally, the software interface (3) allows a user to interact with the model and to generate sound from the parameters’ space.</figcaption>
 <img src="figures/NDM.png" height="75%" width="75%">
-</p>
+</figure>
 
 Here, we directly embed the exposed elements
   * [Reconstruction results for all parts of our model](#reconstructions-results)
@@ -31,4 +31,6 @@ Here, we directly embed the exposed elements
   ##Audio Generations
   
   ##Video Demonstration
+  
+  ##Additional Information
   
