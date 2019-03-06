@@ -15,7 +15,7 @@ This repository describes the additional material and experiments around the pap
 
 In this work, we introduce an audio synthesis architecture for real-time generation of drum sounds. The generative model is based on a conditional convolutional Wasserstein autoencoder (WAE) that learns to generate Mel-scaled magnitude spectrograms of short percussion samples. A Multi-Head Convolutional Neural Network implicitly performs phase reconstruction (MCNN) by estimating the audio signal directly from the magnitude spectrogram. The system is trained on a dataset of drum sounds containing 11 categories. In the end, it is capable of synthesizing sounds in real-time on a CPU. Furthermore, we describe a Max/MSP-based interface designed to interact with the model. With this setup, the system can be easily integrated into a studio-production environment. Moreover, the interface provides simple control over the sound generation process, which allows the user to quickly explore the space of possible drum timbres.
 
-<div align="center" style="font-size:50%;">
+<div align="center" style="font-size:75%;">
 <img src="https://anonymous9123.github.io/iccc-ndm/figures/NDM.png">
 Our system's global architecture. The generative model (1) learns how to reconstruct spectrograms from a parameters’ space. Then, the second part of the system (2) is dedicated to spectrogram inversion, to generate some signal from a Mel spectrogram. Finally, the software interface (3) allows a user to interact with the model and to generate sound from the parameters’ space.
 </div>
