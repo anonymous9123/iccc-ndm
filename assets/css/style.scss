@@ -13,7 +13,10 @@ section {
 .recimg{
     width:220px
 }
-
-td{
-    width: 33%;
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+td {
+  width: 33% ;
 }
