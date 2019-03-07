@@ -294,19 +294,19 @@ Here, we present results of audio generations from the latent space. We sample a
   
   <tr>
     <td>Snare</td>
-    <td><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/snare1.wav"></audio></td>
-    <td><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/snare2.wav"></audio></td>
+    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/snare1.wav"></audio></td>
+    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/snare2.wav"></audio></td>
   </tr>
   
   <tr>
     <td>Open Hihat</td>
-    <td><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/ohh1.wav"></audio></td>
-    <td><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/ohh2.wav"></audio></td>
+    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/ohh1.wav"></audio></td>
+    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/ohh2.wav"></audio></td>
   </tr>
   <tr>
     <td>Bongo</td>
-    <td><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/bg1.wav"></audio></td>
-    <td><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/bg2.wav"></audio></td>
+    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/bg1.wav"></audio></td>
+    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/bg2.wav"></audio></td>
   </tr>
 </table>
   
@@ -315,7 +315,7 @@ Here, we present results of audio generations from the latent space. We sample a
   
   To overcome the problem with conditioning we discussed earlier, we decided to use a Principal Components Analysis (PCA) which aim is to find the 3 most influential dimensions for each category of sound. We denote the PCA dimensions $$P_1$$, $$P_2$$ and $$P_3$$.
   
-  To generate sound through the interface, we provide controllers: First, the XY pad allows to control $P_1$ and $P_2$ and the 'Fine' knob provides control over $P_3$. Also, a selector allows the user to define the range of both the pad and the knob. Then, a menu allows the user to set a value for $c$ which comes down to selecting the type of sounds one wants to generate. Finally, we can use the waveform visualizer to crop out remaining artifacts for example.
+  To generate sound through the interface, we provide controllers: First, the XY pad allows to control $$P_1$$ and $$P_2$$ and the 'Fine' knob provides control over $$P_3$$. Also, a selector allows the user to define the range of both the pad and the knob. Then, a menu allows the user to set a value for $c$ which comes down to selecting the type of sounds one wants to generate. Finally, we can use the waveform visualizer to crop out remaining artifacts for example.
   
   As you can see, the latency is very low and the conditioning through PCA helps a lot to restrict the generation to a given type of sound.
   
