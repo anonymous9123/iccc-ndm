@@ -30,6 +30,40 @@ Here, we directly embed the exposed elements
   
 ## Reconstruction Results
   
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>WAE Output</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>Output</b></td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/bongo.wav">
+      </audio>
+    </td>
+    <td> </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/bongor.wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongoin.png"></td>
+    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongoWAE.png"></td>
+    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongoout.png"></td>
+  </tr>
+  <tr>
+    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongowin.png"></td>
+    <td></td>
+    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongowout.png"></td>
+  </tr>
+</table>
+  
+  
 ## Audio Generations
   
 ## Video Demonstration
