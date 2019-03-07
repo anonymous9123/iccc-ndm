@@ -29,7 +29,7 @@ Here, we directly embed the exposed elements
   * [Additional data and information](#additional-information)
   
 ## Reconstruction Results
-  
+##### Bongo
 <table>
   <tr>
     <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
@@ -62,6 +62,220 @@ Here, we directly embed the exposed elements
     <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongowout.png"></td>
   </tr>
 </table>
+
+<br/>
+
+##### Kick
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>WAE Output</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>Output</b></td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/ki.wav">
+      </audio>
+    </td>
+    <td> </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/kir.wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/kiin.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/kiWAE.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/kiout.png"></td>
+  </tr>
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/kiwin.png"></td>
+    <td></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/kiwout.png"></td>
+  </tr>
+</table>
+
+<b>Click here if you want to <a href="javascript:look('divRec');" title="More reconstructions"> see more reconstruction results ... </a></b>
+<div id="divRec" style="display: none;">
+
+##### Open Hihat
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>WAE Output</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>Output</b></td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/ohh.wav">
+      </audio>
+    </td>
+    <td> </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/ohhr.wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/ohhin.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/ohhWAE.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/ohhout.png"></td>
+  </tr>
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/ohhwin.png"></td>
+    <td></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/ohhwout.png"></td>
+  </tr>
+</table>
+
+
+##### Closed Hihat
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>WAE Output</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>Output</b></td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/chh.wav">
+      </audio>
+    </td>
+    <td> </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/chhr.wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/chhin.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/chhWAE.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/chhout.png"></td>
+  </tr>
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/chhwin.png"></td>
+    <td></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/chhwout.png"></td>
+  </tr>
+</table>
+
+
+##### Tom
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>WAE Output</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>Output</b></td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/tom.wav">
+      </audio>
+    </td>
+    <td> </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/tomr.wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/tomin.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/tomWAE.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/tomout.png"></td>
+  </tr>
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/tomwin.png"></td>
+    <td></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/tomwout.png"></td>
+  </tr>
+</table>
+
+##### Conga
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>WAE Output</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>Output</b></td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/conga.wav">
+      </audio>
+    </td>
+    <td> </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/congar.wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/cgin.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/cgWAE.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/cgout.png"></td>
+  </tr>
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/cgwin.png"></td>
+    <td></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/cgwout.png"></td>
+  </tr>
+</table>
+
+##### Clap
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>WAE Output</b></td>
+    <td style="text-align: center; vertical-align: middle;"><b>Output</b></td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/clap.wav">
+      </audio>
+    </td>
+    <td> </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls>
+      <source src="https://anonymous9123.github.io/iccc-ndm/sounds/rec/clapr.wav">
+      </audio>
+    </td>
+  </tr>
+  
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/clapin.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/clapWAE.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/clapout.png"></td>
+  </tr>
+  <tr>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/clapwin.png"></td>
+    <td></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/clapwout.png"></td>
+  </tr>
+</table>
+
+
+</div>
   
   
 ## Audio Generations
