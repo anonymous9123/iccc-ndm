@@ -52,14 +52,14 @@ Here, we directly embed the exposed elements
   </tr>
   
   <tr>
-    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongoin.png" width="220"></td>
-    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongoWAE.png" width="220"></td>
-    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongoout.png" width="220"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongoin.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongoWAE.png"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongoout.png"></td>
   </tr>
   <tr>
-    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongowin.png" width="220"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongowin.png"></td>
     <td></td>
-    <td><img src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongowout.png" width="220"></td>
+    <td><img class="recimg" src="https://anonymous9123.github.io/iccc-ndm/figures/rec/bongowout.png"></td>
   </tr>
 </table>
   
