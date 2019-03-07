@@ -29,7 +29,7 @@ Here, we directly embed the exposed elements
   * [Additional data and information](#additional-information)
   
 ## Reconstruction Results
-##### Bongo
+<b> Bongo </b>
 <table>
   <tr>
     <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
@@ -65,7 +65,7 @@ Here, we directly embed the exposed elements
 
 <br/>
 
-##### Kick
+<b> Kick </b>
 <table>
   <tr>
     <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
@@ -102,7 +102,7 @@ Here, we directly embed the exposed elements
 <b>Click here if you want to <a href="javascript:look('divRec');" title="More reconstructions"> see more reconstruction results ... </a></b>
 <div id="divRec" style="display: none;">
 
-##### Open Hihat
+<b> Open Hihat </b>
 <table>
   <tr>
     <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
@@ -137,7 +137,7 @@ Here, we directly embed the exposed elements
 </table>
 
 
-##### Closed Hihat
+<b> Closed Hihat </b>
 <table>
   <tr>
     <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
@@ -172,7 +172,7 @@ Here, we directly embed the exposed elements
 </table>
 
 
-##### Tom
+<b> Tom </b>
 <table>
   <tr>
     <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
@@ -206,7 +206,7 @@ Here, we directly embed the exposed elements
   </tr>
 </table>
 
-##### Conga
+<b> Conga </b>
 <table>
   <tr>
     <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
@@ -240,7 +240,7 @@ Here, we directly embed the exposed elements
   </tr>
 </table>
 
-##### Clap
+<b> Clap </b>
 <table>
   <tr>
     <td style="text-align: center; vertical-align: middle;"><b>Input</b></td>
