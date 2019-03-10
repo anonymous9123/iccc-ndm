@@ -9,7 +9,7 @@
       } 
 </script> 
 
-# The Neural Drum Machine (website will be complete on March 8th)
+# The Neural Drum Machine
 
 This repository describes the additional material and experiments around the paper ["Neural Drum Machine"](paper.pdf) submitted at the 2019 International Conference on Computational Creativity.
 
