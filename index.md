@@ -277,7 +277,7 @@ Here, we directly embed the exposed elements
   
 ## Audio Generations
 
-Here, we present results of audio generations from the latent space. We sample a 64-dimensional Gaussian and give this latent code $$z$$ to our decoder, along with a class label $$c$$. This is supposed to allow us to generate a sound corresponding to that class label. However, listening to the obtained samples, we can say that this conditioning mechanism is not strong enough. Some samples that were generated from the class label corresponding to kicks actually sound like hihats. Therefore, generating samples by sampling the latent space seems not to be the good way to do.
+Here, we present results of audio generations from the latent space. We sample a 64-dimensional Gaussian and give this latent code $$z$$ to our decoder, along with a class label $$c$$. This is supposed to allow us to generate a sound corresponding to that class label. However, listening to the obtained samples, we can say that this conditioning mechanism is not strong enough. Indeed, some samples that were generated from the class label corresponding to kicks actually sound like hihats. Therefore, generating samples by sampling the prior seems not to be the good way to do.
 
 <table>
   <tr>
@@ -299,9 +299,9 @@ Here, we present results of audio generations from the latent space. We sample a
   </tr>
   
   <tr>
-    <td>Open Hihat</td>
-    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/ohh1.wav"></audio></td>
-    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/ohh2.wav"></audio></td>
+    <td>Closed Hihat</td>
+    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/chh1.wav"></audio></td>
+    <td><audio controls><source src="https://anonymous9123.github.io/iccc-ndm/sounds/gen/chh2.wav"></audio></td>
   </tr>
   <tr>
     <td>Bongo</td>
