@@ -313,7 +313,7 @@ Here, we present results of audio generations from the latent space. We sample a
 ## Video Demonstration
   Here, we showcase the lastest version of our plugin in a studio production environment. This plugin is a VST Instrument developed with Juce, and can be loaded in any Digital Audio Workstation. The model has been compiled with LibTorch, hence a python server is not required anymore.
   
-  To generate sound through the interface, we provide controllers: First, the XY pad allows to control two dimensions, selected randomly. Also, a selector allows the user to define the range of the pad. Then, a menu allows the user to set a type of sounds one wants to generate, which amounts to changing the conditioning label $c$.
+  To generate sound through the interface, we provide controllers: First, the XY pad allows to control two dimensions, selected randomly. Also, a selector allows the user to define the range of the pad. Then, a menu allows the user to set a type of sounds one wants to generate, which amounts to changing the conditioning label $$c$$.
   
 This video brings more details on the encoding mechanism that allows a user to re-use tehir favorite samples.
   
