@@ -317,7 +317,5 @@ Here, we present results of audio generations from the latent space. We sample a
   
 This video brings more details on the encoding mechanism that allows a user to re-use tehir favorite samples.
   
-<video id="flatness" class="video-js vjs-default-skin" controls preload="auto" width="600" height="288" data-setup="{}">
-<source src="https://anonymous9123.github.io/iccc-ndm/demo.mp4" type='video/mp4'>
-</video>
+<iframe src="https://drive.google.com/file/d/1MTDxiBfPrYuZU2q9-g7SPjxUKw2MwJWa/preview" width="640" height="480"></iframe>
   
