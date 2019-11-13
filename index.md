@@ -311,13 +311,11 @@ Here, we present results of audio generations from the latent space. We sample a
 </table>
   
 ## Video Demonstration
-  Here, we showcase our plugin in a studio production environment.
+  Here, we showcase the lastest version of our plugin in a studio production environment. This plugin is a VST Instrument developed with Juce, and can be loaded in any Digital Audio Workstation. The model has been compiled with LibTorch, hence a python server is not required anymore.
   
-  To overcome the problem with conditioning we discussed earlier, we decided to use a Principal Components Analysis (PCA) which aim is to find the 3 most influential dimensions for each category of sound. We denote the PCA dimensions $$P_1$$, $$P_2$$ and $$P_3$$.
+  To generate sound through the interface, we provide controllers: First, the XY pad allows to control two dimensions, selected randomly. Also, a selector allows the user to define the range of the pad. Then, a menu allows the user to set a type of sounds one wants to generate, which amounts to changing the conditioning label $c$.
   
-  To generate sound through the interface, we provide controllers: First, the XY pad allows to control $$P_1$$ and $$P_2$$ and the 'Fine' knob provides control over $$P_3$$. Also, a selector allows the user to define the range of both the pad and the knob. Then, a menu allows the user to set a value for $c$ which comes down to selecting the type of sounds one wants to generate. Finally, we can use the waveform visualizer to crop out remaining artifacts for example.
-  
-  As you can see, the latency is very low and the conditioning through PCA helps a lot to restrict the generation to a given type of sound.
+This video brings more details on the encoding mechanism that allows a user to re-use tehir favorite samples.
   
 <video id="flatness" class="video-js vjs-default-skin" controls preload="auto" width="600" height="288" data-setup="{}">
 <source src="https://anonymous9123.github.io/iccc-ndm/demo.mp4" type='video/mp4'>
